@@ -2,7 +2,7 @@ import { Box, Container, Flex, Heading, Link, Text, VStack, HStack, Divider } fr
 import { FaNewspaper, FaRegCommentDots, FaRegNewspaper } from "react-icons/fa";
 
 const Header = () => (
-  <Box as="header" bg="brand.800" color="white" py={4}>
+  <Box as="header" bg="brand.700" color="white" py={4}>
     <Container maxW="container.lg">
       <Flex justify="space-between" align="center">
         <Heading as="h1" size="lg">
@@ -21,7 +21,7 @@ const Header = () => (
 );
 
 const Footer = () => (
-  <Box as="footer" bg="gray.800" color="white" py={4} mt={8}>
+  <Box as="footer" bg="gray.700" color="white" py={4} mt={8}>
     <Container maxW="container.lg">
       <Flex justify="space-between" align="center">
         <Text>&copy; {new Date().getFullYear()} Financial Times</Text>
@@ -51,7 +51,7 @@ const Section = ({ id, title, icon, children }) => (
 
 const Index = () => {
   return (
-    <Box>
+    <Box bg="brand.900" color="white">
       <Header />
       <Box as="main" py={8}>
         <Section id="featured" title="Featured Articles" icon={<FaNewspaper />}>
