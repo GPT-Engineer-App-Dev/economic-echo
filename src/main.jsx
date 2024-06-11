@@ -5,9 +5,9 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
 const colors = {
   brand: {
-    900: "#1a365d",
-    800: "#153e75",
-    700: "#2a69ac",
+    900: "#fff1e5",  // Financial Times background color
+    800: "#e4d7c6",
+    700: "#cbb8a3",
   },
 };
 
